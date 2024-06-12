@@ -1,0 +1,190 @@
+* {
+     margin:0;
+    border: border-box;
+    font-family: Arial;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color:white;
+    display:flex;
+    align-items:center;
+
+}
+.nav_logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width:100%;
+}
+
+.border{
+    border:2px solid transparent;
+}
+
+.border:hover{
+    border:1.5px solid white;
+}
+
+.add-first{
+    color:#cccccc;
+    font-size: 0.5rem;
+    margin-left: 15px;
+}
+
+
+.add-second{
+ color:#ffffff;
+ font-size:  1rem;
+ margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+}
+
+.nav-search{
+
+    display:flex;
+    justify-content: space-evenly;
+    color:#0f1111;
+    border-radius: 4px;
+  
+}
+
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-icon{
+    margin-left: 3px;
+    width: 45px;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+   align-items:center;
+   font-size:larger;
+   background-color: #febd68;
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+}
+
+.search-input{
+    width: 583.5px;
+    height: 38px;
+
+}
+
+.search-select{
+    background-color:lightgrey;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width:50px;
+    text-align: center;
+    border: none;
+}
+
+span{
+    margin-left: 20px;
+    font-size: 0.75rem;
+}
+
+.nav-second{
+    margin-left: 20px;
+    font-size: 0.85rem;
+}
+
+
+.cart{
+    font-size:x-large;
+}
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+
+.nav-cart{
+    margin-left: 20px;
+    font-size: 0.9rem;
+}
+
+.panel{
+    height:39px;
+    background-color: #222f3d;
+    display:flex;
+    color:white;
+    align-items: center;
+    justify-content:space-evenly;
+  
+}
+
+.panel-opt p{
+    display:inline;
+    margin-left: 15px;
+}
+
+.panel-opt{
+    width:70%;
+    font-size: 0.9rem;
+}
+
+
+.panel-deals{
+    font-weight: 700;
+}
+
+.hero{
+    background-image: url("hero_image.jpg");
+    height: 400px;
+    background-size: cover ;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+.hero_msg{
+    background-color: #cccccc;
+    color:#0f1111;
+    height:40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width:80%;
+    margin-bottom: 25px;
+}
+
+.hero_msg a{
+    color:#007185;
+}
+
+
+.shop-section{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:  #e2e7e6;
+}
+
+
+.box{
+    height: 420px;
+    width: 312px;
+    border:2px solid black;
+    background-color: white;
+   
+
+}
+
+
+.box-image{
+    height: 300px;
+    background-size: cover;
+    margin-left: 1rem;
+    margin-right:1rem;
+}
